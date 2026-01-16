@@ -60,4 +60,25 @@ a {
     margin: 0;
     line-height: 1.1;
 }
+.texto-caja {
+    background-color: #230808; /* marrón del proyecto */
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.texto-caja p {
+    font-size: 1.5rem;   /* texto más grande */
+    line-height: 1.6;   /* mejor lectura */
+    margin-bottom: 0;
+    color: rgb(229, 156, 107);     /* marrón oscuro, no negro puro */
+}
+
+.texto-caja h2 {
+    color: rgb(229, 156, 107); 
+    font-size: 3rem;
+}
+texto-caja button a {
+    color: rgb(229, 156, 107); 
+    font-size: 1.2rem;
+}
 
