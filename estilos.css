@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 1.5rem;
+    background-color: rgb(208, 126, 75);
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(191, 138, 104);
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem 0;
+}
+
+.footer-content {
+    padding: 0 1.5rem;
+}
+main {
+    background-color: rgb(229, 156, 107);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    min-height: 100vh;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+header,
+main{
+    padding: 1.5rem;
+}
+
+.btn-outline-custom {
+    --bs-btn-color: rgb(208, 126, 75);
+    --bs-btn-border-color: rgb(208, 126, 75);
+    --bs-btn-border-width: 3px;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(208, 126, 75);
+    --bs-btn-hover-border-color: rgb(208, 126, 75);
+}
+a {
+    color: rgb(34, 9, 7);
+    text-decoration: none;
+}
+
