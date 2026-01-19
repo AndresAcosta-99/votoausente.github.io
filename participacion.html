@@ -7,18 +7,36 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         <title>Participacion</title>
         <link rel="stylesheet" href="estilos.css">
+        <link rel="icon" type="image/svg+xml" href="Images/favicon.svg">
     </head>
     <body>
         <header>
-            <h1>VotoAusente</h1>
+            <h1><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-fill-x" viewBox="0 0 16 16">
+            <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
+            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708"/>
+            </svg>VotoAusente</h1>
+            <div class="dropdown show">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contenidos</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="participacion.html">Participación electoral y democracia</a>
+                    <a class="dropdown-item" href="independencia.html">Independencia y oligarquías</a>
+                    <a class="dropdown-item" href="constitucion.html">Constitución de 1925: nuevas fuerzas</a>
+                    <a class="dropdown-item" href="la_violencia.html">La violencia colombiana</a>
+                    <a class="dropdown-item" href="via_pacifica.html">Vía pacífica al socialismo</a>
+                    <a class="dropdown-item" href="dictadura.html">La dictadura militar en Chile</a>
+                    <a class="dropdown-item" href="otros_ordenes.html">Otro(s) orden(es)</a>
+                    <a class="dropdown-item" href="violencia.html">Violencia política</a>
+                    <a class="dropdown-item" href="participacion.html">La participación en el siglo XXI</a>
+                    <a class="dropdown-item" href="referencias.html">Referencias</a>
+                </div>
+            </div>
         </header>
         <main>
             <section>
                 <h2>Participación para la democracia</h2>
                 <p>Con la participación los ciudadanos "se vuelven más conscientes de sus derechos y obligaciones, y desarrollan opiniones políticas más conscientes y estructuradas" (Morlino, 2014). Su contraparte, la abstención electoral, deslegitima la democracia (Nohlen, 2004) y evidencia apatía, rechazo al sistema político, objeción al acto electoral, desafección hacia los proyectos propuestos o castigo a gobiernos pasados (Franco y Flórez, 2019).</p>
                 <div>
-                    <button type="button" class="btn btn-outline-custom"><a href="https://es.wikipedia.org/wiki/Participaci%C3%B3n_ciudadana">Más información</a>
-                    </button>
+                    <button class="btn btn-primary" onclick="location.href='https://es.wikipedia.org/wiki/Participaci%C3%B3n_ciudadana'">Más información</button>
                 </div>
             </section>
             <section>
@@ -28,10 +46,8 @@
             <section>
                 <h3>Legislación para incrementar la participación</h3>
                 <p>El voto obligatorio es una política que exige a los ciudadanos participar en las elecciones, para lo que suelen plantearse sanciones por no hacerlo. Este sistema busca aumentar la participación electoral y asegurar que las decisiones democráticas reflejen la voluntad de una mayor parte de la población.</p>
-                <figure>
-                    <img src="Images/Mapa-participación.avif" alt="Legislación electoral" class="img-fluid"></image>
-                    <figcaption>Fuente: DW</figcaption>
-                </figure>
+                <img src="Images/Mapa-participación.avif" alt="Legislación electoral" class="img-fluid">
+                <figcaption>Fuente: DW</figcaption>
             </section>
             <section>
                 <h3>Posibles causales de la abstención electoral</h3>
@@ -39,7 +55,62 @@
                     <h4>Grado de marginación</h4>
                     <p>En México se encontró que en municipios con bajos niveles de marginación hay mayor tendencia a la movilización política, mientras que municipios con altos niveles tendían al abandono; diferentes grados de marginación proporcionan diferentes estímulos al elector (Soto y Córtez, 2014).</p>
                 </div>
+                <div>
+                    <h4>Factores psicológicos</h4>
+                    <p>La abstención puede deberse a la valoración subjetiva de inutilidad del acto electoral, la apatía o indiferencia, la relativización de la importancia de las elecciones, entre otros (CAPEL, 2003).</p>
+                </div>
+                <div>
+                    <h4>Factores sociodemográficos</h4>
+                    <p>Las diferencias en la participación electoral se han asociado con el sexo, la edad, el nivel de educación, el nivel de ingresos, la religión, el sistema de comunicaciones o el ámbito de población en que se reside (CAPEL, 2003).</p>
+                </div>
+                <div>
+                    <h4>Factores políticos</h4>
+                    <p>El rechazo a la elección puede deberse a la desconexión de los partidos políticos con la comunidad, la falta de renovación y credibilidad, y el descontento con la participación tradicional. Distanciamiento entre gobernantes y gobernados (CAPEL, 2003).</p>
+                </div>
+            </section>
+            <section>
+                <div id="carruselParticipacion" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="p-4">
+                                <h4>¿Voto obligatorio?</h4>
+                                <p>La participación electoral en Colombia es voluntaria y ha sido baja a lo largo de su historia. Aunque en Chile es obligatoria, esta medida se suspendió entre 2012 y 2022, periodo en que alcanzó sus cifras históricas más bajas.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="p-4">
+                                <h6>Participación en elecciones presidenciales entre 1998 y 2022</h6>
+                                <img src="Images/ffd794_436f35eeb1964bd59cf9927c4c5dbc11~mv2.avif" alt="Gráfica de participación electoral en Colombia y Chile" class="img-fluid">
+                                <figcaption>Fuentes: Registraduria Nacional de Colombia, Misión de Observación Electoral y Servicio Electoral de Chile. Elaboración propia.</figcaption>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="p-4">
+                                <h4>El impacto del voto obligatorio</h4>
+                                <p>La participación electoral en Colombia es voluntaria y ha sido baja a lo largo de su historia. Aunque en Chile es obligatoria, esta medida se suspendió entre 2012 y 2022, periodo en que alcanzó sus cifras históricas más bajas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carruselParticipacion" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carruselParticipacion" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
             </section>
         </main>
+        <footer>
+            <div class="footer-content">
+                <h3>VotoAusente</h3>
+                <p>Andrés Acosta y Vanessa Santiago</p>
+                <p>Profesora Julieta Rostica</p>
+                <p>Sociología histórica - Maestría en Estudios Sociales</p>
+                <p>Latinoamericanos</p>
+                <p>Universidad de Buenos Aires</p>
+            </div>
+        </footer>
     </body>
 </html>
