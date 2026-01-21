@@ -5,89 +5,179 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <title>Otro(s) Orden(es)</title>
+    <title>VotoAusente</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="icon" type="image/svg+xml" href="Images/favicon.svg">
 
 </head>
 <body>
     <header>
-        <h1><a href="home.html"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-fill-x" viewBox="0 0 16 16">
+        <h1><a href="home.html"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-fill-x" viewBox="0 0 16 16">
         <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
         <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m-.646-4.854.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 0 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 .708-.708"/>
-        </svg>VotoAusente</a></h1>
+        </svg>
+        VotoAusente</a></h1>
         
         <div class="dropdown show">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Contenidos
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="participacion.html">Participación electoral y democracia</a>
-                <a class="dropdown-item" href="independencia.html">Independencia y oligarquías</a>
-                <a class="dropdown-item" href="constitucion.html">Constitución de 1925: nuevas fuerzas</a>
-                <a class="dropdown-item" href="la_violencia.html">La violencia colombiana</a>
-                <a class="dropdown-item" href="via_pacifica.html">Vía pacífica al socialismo</a>
-                <a class="dropdown-item" href="dictadura.html">La dictadura militar en Chile</a>
-                <a class="dropdown-item" href="otros_ordenes.html">Otro(s) orden(es)</a>
-                <a class="dropdown-item" href="violencia.html">Violencia política</a>
-                <a class="dropdown-item" href="participacion.html">La participación en el siglo XXI</a>
-                <a class="dropdown-item" href="referencias.html">Referencias</a>
-            </div>
+        <button class="btn btn-outline-alternative dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Contenidos
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="participacion.html">Participación electoral y democracia</a>
+            <a class="dropdown-item" href="independencia.html">Independencia y oligarquías</a>
+            <a class="dropdown-item" href="constitucion.html">Constitución de 1925: nuevas fuerzas</a>
+            <a class="dropdown-item" href="la_violencia.html">La Violencia colombiana</a>
+            <a class="dropdown-item" href="via_pacifica.html">Vía pacífica al socialismo</a>
+            <a class="dropdown-item" href="dictadura.html">La dictadura militar en Chile</a>
+            <a class="dropdown-item" href="otros_ordenes.html">Otro(s) orden(es)</a>
+            <a class="dropdown-item" href="violencia.html">Violencia política</a>
+            <a class="dropdown-item" href="p_sigloXXI.html">La participación en el siglo XXI</a>
+            <a class="dropdown-item" href="referencias.html">Referencias</a>
+        </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="encabezado-editorial">
             <h3>El camino de la insurgencia</h3>
-            <h2  class="site-title">Otro(s) orden(es)</h2>
-            <div class="text-center my-3">
-            <p>En Colombia se impuso el Frente Nacional entre 1958 y 1974 que excluyó todas las expresiones por fuera del binomio liberal-conservador, mientras que en Chile la dictadura reprimió a la población de 1973 a 1990. En estos periodos emergieron proyectos insurgentes que buscaron reformar al sistema por fuera de las rutas democráticas, recurriendo a las armas y a la clandestinidad.</p>
+            <h2 class="display-3"><strong>Otro(s) orden(es)</strong></h2>
+            <p class="lead">
+                <br>
+                En Colombia se impuso el Frente Nacional entre 1958 y 1974 que excluyó todas las expresiones por fuera del binomio liberal-conservador, mientras que en Chile la dictadura reprimió a la población de 1973 a 1990. En estos periodos emergieron proyectos insurgentes que buscaron reformar al sistema por fuera de las rutas democráticas, recurriendo a las armas y a la clandestinidad.  
+
+
+            </p>
+        </section>
+
+        <section class="bloque-editorial">
+            <div class="row align-items-center">
+            <div class="col-md-6 imagen-col">
+            <img src="Images/farc.jpg" class="img-fluid imagen-editorial">
+            </div>
+
+            <div class="col-md-6 texto-col">
+            <h2>Las FARC, el ELN y el EPL: lucha armada en Colombia</h2>
+            <p class="lead">En el marco de la exclusión del Frente Nacional y de la clandestinización del comunismo impuesta por Gustavo Rojas Pinilla, se fundaron las FARC en 1964 tras el bombardeo ordenado por el presidente Guillermo León Valencia sobre Marquetalia, región que se había declarado en independencia por el abandono estatal y donde vivían campesinos simpatizantes con ideas liberales y comunistas. También con ideas similares surgió el ELN en el mismo año, y el EPL en 1967.
+            <br><br>
+            De esta manera, la exclusión y abandono generados por el pacto oligárquico llevaron a poblaciones rurales a alzarse en armas buscando un orden más justo, donde el poder estuviera al alcance de toda la población y la riqueza se repartiera entre todos en uno de los países mas desiguales del planeta. 
+            </p>
             </div>
         </section>
 
-    <section>
+            <section class="bloque-editorial">
+            <div class="row align-items-center flex-md-row-reverse">
 
+                <div class="col-md-6 imagen-col">
+                <img src="Images/m19.avif" class="img-fluid imagen-editorial">
+                </div>
 
-    <div class="row align-items-center g-4">
-        <!-- Texto -->
-        <div class="col-md-6">
-            <img src="Images/farc.jpg" alt="FARC" class="img-fluid">
-                <h2 id="about">Las FARC, el ELN y el EPL: lucha armada en Colombia</h2>
-            
-            <p>En el marco de la exclusión del Frente Nacional y de la clandestinización del comunismo impuesta por Gustavo Rojas Pinilla, se fundaron las FARC en 1964 tras el bombardeo ordenado por el presidente Guillermo León Valencia sobre Marquetalia, región que se había declarado en independencia por el abandono estatal y donde vivían campesinos simpatizantes con ideas liberales y comunistas. También con ideas similares surgió el ELN en el mismo año, y el EPL en 1967.<br><br>
-            De esta manera, la exclusión y abandono generados por el pacto oligárquico llevaron a poblaciones rurales a alzarse en armas buscando un orden más justo, donde el poder estuviera al alcance de toda la población y la riqueza se repartiera entre todos en uno de los países mas desiguales del planeta.</p>
-
-            <h2>El Movimiento 19 de Abril (M-19): la experiencia armada urbana en Colombia</h2>
-            <p>Tras el fraude electoral en las presidenciales de 1970 y con el descontento de algunos militantes disidentes de las FARC se creó un nuevo movimiento: el M-19. Formado por estudiantes, intelectuales y excombatientes, respondieron a las crecientes demandas sociales y tomaron como bandera la instauración de una verdadera democracia participativa.<br><br>El 17 de enero de 1974 robaron la espada de Simón Bolívar, indicando que la devolverían tras la emergencia de un orden más amplio y justo. Sus acciones políticas atraían simpatizantes pero las acciones militares emprendidas, como el asesinato del presidente de la Confederación de Trabajadores de Colombia, o la toma de la Embajada de República Dominicana y del Palacio de Justicia, generaron terror en la población. </p>
-            <img src="Images/m19.avif" alt="M-19" class="img-fluid">
-            <h2>El fin del pacto y de la vía pacífica</h2>
-            <p>El Frente Nacional despolitizó a los partidos al punto de que, como indica la Comisión de la Verdad (2022), se decía que "la diferencia entre conservadores y liberales era que mientras unos iban a misa de 6 am otros iban a la de 8 am". Al Partido Liberal se le cortaron sus ambiciones reformistas y la elección de candidatos se realizaba por conveniencia de los líderes de los partidos en Bogotá. Así, el Frente Nacional pacificó la violencia bipartidista, pero generó indiferencia y abstención electoral con la percibida necesidad de establecer demandas mediante mecanismos no democráticos.
-            <br><br>
-            Acontecimientos como el fraude electoral de 1970 y el golpe de Estado a Salvador Allende alejaron a la población de las vías democráticas, pues se entendió que la capacidad de transformar el orden electoralmente era limitada o nula. Así, las poblaciones de Chile y Colombia se alejaron progresivamente de las urnas y se sumieron en la desesperanza democrática. </p>
-            <h2>Populismo en Chile y Colombia</h2>
-            <p>El populismo latinoamericano de los años 1930 se caracterizó por poner al “pueblo” en el centro del discurso político, con líderes carismáticos que promovieron la intervención estatal en la economía, la industrialización y la ampliación de derechos sociales, construyendo alianzas entre trabajadores urbanos, burguesía industrial y campesinos, y buscando democratizar el poder frente a las élites oligárquicas (Nercesian y Rostica, 2014). Sin embargo, en Colombia y Chile no prosperaron plataformas populistas que canalizaran democráticamente las demandas sociales e impugnaran la dominación oligárquica, lo que llevó a la persistencia de exclusiones políticas y a crisis sociales profundas.</p>
-            <img src="Images/Chile.jpeg" alt="Resistencia en Chile" class="img-fluid">
-            <h2>La resistencia armada chilena: MIR y FPMR</h2>
-            <p>En 1965 se funda el Movimiento de Izquierda Revolucionaria chileno, producto de la ruptura con la Unidad Popular que veía en la democracia una vía para instaurar el socialismo de manera pacífica. Para 1966 se fundaría también el Ejército de Liberación Nacional chileno por instrucción de Ernesto Guevara y con participación del Partido Socialista.
-            <br><br>
-            Con la victoria de Salvador Allende el MIR detuvo su actividad militar, pero continuó los entrenamientos y la organización. Tras el golpe de 1973, el movimiento se reorganizó para la resistencia, pero fue duramente reprimido al punto de que para finales de la década se encontraba claramente reducido por la muerte y exilio de sus militantes. 
-            <br><br>
-            Aunque en 1981 el MIR intentó una Operación de Retorno para reactivar la resistencia, esta fue detectada y desmontada. Sería el Partido Comunista el que retomaría la iniciativa con la conformación del Frente Patriótico Manuel Rodríguez. Con esta plataforma se realizaron numerosas acciones para debilitar a la dictadura que acabarían por perder fuerza tras el comienzo del proceso de transición a la democracia en 1989.</p>
-            <h2>Revolución a la cubana: guerrillas marxistas en Chile y Colombia</h2>
-            <p>Tras el triunfo de la Revolución cubana en 1959 se formaron guerrillas en Colombia y Chile que, a través del foquismo y con principios marxistas, quisieron replicar la victoria de los dirigidos por Castro. Algunos de estos grupos eran, incluso, financiados y entrenados por los cubanos, y buscaban la transformación de las condiciones de los campesinos, los trabajadores y las clases bajas de sus países a través de la derrota del Estado que garantizaba la perpetuación de las condiciones adversas para las mayorías, excluidas social, política y económicamente.</p>
-            <img src="Images/Cuba.avif" alt="Revolución Cubana" class="img-fluid">
-            <img src="Images/Pizarro.avif" alt="Procesos de paz" class="img-fluid">
-            <h2>Lucha por la consolidación democrática</h2>
-            <p>La represión de las expresiones políticas y la concentración del poder fueron características en el escenario político chileno y colombiano durante la dictadura y el Frente Nacional, respectivamente. En este sentido, algunos grupos insurgentes aparecieron para reformar el orden democrático sin pretensiones de imponer un nuevo orden social, pues confiaban en que la ciudadanía  lo haría con las herramientas necesarias. 
-            <br><br>
-            El MIR en Chile empezó como plataforma para alcanzar el socialismo por la vía armada, única que veían viable, pero acabó por resistir la avanzada de Pinochet y dirigir sus esfuerzos a enfrentar a la dictadura.</p>
-            <h2>Clandestinidad para transformar el orden político y social</h2>
-            <p>El estrechamiento del espectro político provocó el surgimiento de los grupos clandestinos. Con el ampliamiento del retorno a la democracia y del fin del Frente Nacional, se fueron desmontando progresivamente. En el caso colombiano, el M-19 firmó un acuerdo de paz con el Estado en 1990 y, junto con el EPL, tuvo una participación activa en la elaboración de la Contitución colombiana de 1991. Las FARC lo harían en 2016 con compromisos bilaterales para la justicia, la reparación y la subsanación de aspectos fundamentales para la prosperidad del campesinado. El ELN y las disidencias de las FARC y del EPL persisten en su actividad armada en tanto estiman que las causas que los llevaron a las armas se mantienen. Por su parte, para el caso chileno, el MIR y el FPMR hicieron frente a la dictadura y fueron disueltos con la recuperación de la democracia en 1990. </p>
-            <img src="Images/Pazcuba.avif" alt="Acuerdos de paz en Cuba" class="img-fluid">
-
-            <h2>En Colombia y Chile no hubo revoluciones, estos no lograron transformar radicalmente el sistema político ni social, limitándose a resistir o buscar acuerdos parciales.</h2>
+                <div class="col-md-6 texto-col">
+                <h2>El Movimiento 19 de Abril (M-19): la experiencia armada urbana en Colombia</h2>
+                <p class="lead">Tras el fraude electoral en las presidenciales de 1970 y con el descontento de algunos militantes disidentes de las FARC se creó un nuevo movimiento: el M-19. Formado por estudiantes, intelectuales y excombatientes, respondieron a las crecientes demandas sociales y tomaron como bandera la instauración de una verdadera democracia participativa.
+                <br><br>
+                El 17 de enero de 1974 robaron la espada de Simón Bolívar, indicando que la devolverían tras la emergencia de un orden más amplio y justo. Sus acciones políticas atraían simpatizantes pero las acciones militares emprendidas, como el asesinato del presidente de la Confederación de Trabajadores de Colombia, o la toma de la Embajada de República Dominicana y del Palacio de Justicia, generaron terror en la población.</p>
+                </div>
 
             </div>
-     
+            </section>
+        
+            <section class="texto-largo">
+            <h2>El fin del pacto y de la vía pacífica</h2>
+            <p class="lead">El Frente Nacional despolitizó a los partidos al punto de que, como indica la Comisión de la Verdad (2022), se decía que "la diferencia entre conservadores y liberales era que mientras unos iban a misa de 6 am otros iban a la de 8 am". Al Partido Liberal se le cortaron sus ambiciones reformistas y la elección de candidatos se realizaba por conveniencia de los líderes de los partidos en Bogotá. Así, el Frente Nacional pacificó la violencia bipartidista, pero generó indiferencia y abstención electoral con la percibida necesidad de establecer demandas mediante mecanismos no democráticos.
+                <br><br>
+                Acontecimientos como el fraude electoral de 1970 y el golpe de Estado a Salvador Allende alejaron a la población de las vías democráticas, pues se entendió que la capacidad de transformar el orden electoralmente era limitada o nula. Así, las poblaciones de Chile y Colombia se alejaron progresivamente de las urnas y se sumieron en la desesperanza democrática. 
+            </p>
+</section>
+
+<section class="texto-largo">
+<div class="texto-caja">
+  <h2>Populismo en Chile y Colombia</h2>
+  <p class="lead">El populismo latinoamericano de los años 1930 se caracterizó por poner al “pueblo” en el centro del discurso político, con líderes carismáticos que promovieron la intervención estatal en la economía, la industrialización y la ampliación de derechos sociales, construyendo alianzas entre trabajadores urbanos, burguesía industrial y campesinos, y buscando democratizar el poder frente a las élites oligárquicas (Nercesian y Rostica, 2014). Sin embargo, en Colombia y Chile no prosperaron plataformas populistas que canalizaran democráticamente las demandas sociales e impugnaran la dominación oligárquica, lo que llevó a la persistencia de exclusiones políticas y a crisis sociales profundas.</p>
+</div>
+</section>
+<section class="bloque-editorial">
+  <div class="row align-items-stretch">
+
+    <!-- Columna imágenes -->
+    <div class="col-md-6">
+      <div class="grid-imagenes">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+        <img src="Images/Chile.jpeg" alt="">
+      </div>
+    </div>
+
+    <!-- Columna texto -->
+    <div class="col-md-6 texto-col">
+      <h2>La resistencia armada chilena: MIR y FPMR</h2>
+      <p class="lead">
+        En 1965 se funda el Movimiento de Izquierda Revolucionaria chileno, producto de la ruptura con la Unidad Popular que veía en la democracia una vía para instaurar el socialismo de manera pacífica. Para 1966 se fundaría también el Ejército de Liberación Nacional chileno por instrucción de Ernesto Guevara y con participación del Partido Socialista.
+        <br><br>
+        Con la victoria de Salvador Allende el MIR detuvo su actividad militar, pero continuó los entrenamientos y la organización. Tras el golpe de 1973, el movimiento se reorganizó para la resistencia, pero fue duramente reprimido al punto de que para finales de la década se encontraba claramente reducido por la muerte y exilio de sus militantes. 
+        <br><br>
+        Aunque en 1981 el MIR intentó una Operación de Retorno para reactivar la resistencia, esta fue detectada y desmontada. Sería el Partido Comunista el que retomaría la iniciativa con la conformación del Frente Patriótico Manuel Rodríguez. Con esta plataforma se realizaron numerosas acciones para debilitar a la dictadura que acabarían por perder fuerza tras el comienzo del proceso de transición a la democracia en 1989.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+            <section class="bloque-editorial">
+            <div class="row align-items-center flex-md-row-reverse">
+
+                <div class="col-md-6 imagen-col">
+                <img src="Images/Cuba.avif" class="img-fluid imagen-editorial">
+                </div>
+
+                <div class="col-md-6 texto-col">
+                <h2>Revolución a la cubana: guerrillas marxistas en Chile y Colombia</h2>
+                <p class="lead">Tras el triunfo de la Revolución cubana en 1959 se formaron guerrillas en Colombia y Chile que, a través del foquismo y con principios marxistas, quisieron replicar la victoria de los dirigidos por Castro. Algunos de estos grupos eran, incluso, financiados y entrenados por los cubanos, y buscaban la transformación de las condiciones de los campesinos, los trabajadores y las clases bajas de sus países a través de la derrota del Estado que garantizaba la perpetuación de las condiciones adversas para las mayorías, excluidas social, política y económicamente.</p>
+                </div>
+
+              </div>
+            </section>
+            <section class="bloque-editorial">
+            <div class="row align-items-center">
+            <div class="col-md-6 imagen-col">
+            <img src="Images/Pizarro.avif" class="img-fluid imagen-editorial">
+            </div>
+
+            <div class="col-md-6 texto-col">
+            <h2>Lucha por la consolidación democrática</h2>
+            <p class="lead">La represión de las expresiones políticas y la concentración del poder fueron características en el escenario político chileno y colombiano durante la dictadura y el Frente Nacional, respectivamente. En este sentido, algunos grupos insurgentes aparecieron para reformar el orden democrático sin pretensiones de imponer un nuevo orden social, pues confiaban en que la ciudadanía  lo haría con las herramientas necesarias. 
+            <br><br>
+            El MIR en Chile empezó como plataforma para alcanzar el socialismo por la vía armada, única que veían viable, pero acabó por resistir la avanzada de Pinochet y dirigir sus esfuerzos a enfrentar a la dictadura.</p>
+            </div>
+            </section>
+            
+
+            <section class="bloque-editorial">
+            <div class="row align-items-center flex-md-row-reverse">
+
+                <div class="col-md-6 imagen-col">
+                <img src="Images/Pazcuba.avif" class="img-fluid imagen-editorial">
+                </div>
+
+                <div class="col-md-6 texto-col">
+                <h2>Clandestinidad para transformar el orden político y social</h2>
+                <p class="lead">El estrechamiento del espectro político provocó el surgimiento de los grupos clandestinos. Con el ampliamiento del retorno a la democracia y del fin del Frente Nacional, se fueron desmontando progresivamente. En el caso colombiano, el M-19 firmó un acuerdo de paz con el Estado en 1990 y, junto con el EPL, tuvo una participación activa en la elaboración de la Contitución colombiana de 1991. Las FARC lo harían en 2016 con compromisos bilaterales para la justicia, la reparación y la subsanación de aspectos fundamentales para la prosperidad del campesinado. El ELN y las disidencias de las FARC y del EPL persisten en su actividad armada en tanto estiman que las causas que los llevaron a las armas se mantienen. Por su parte, para el caso chileno, el MIR y el FPMR hicieron frente a la dictadura y fueron disueltos con la recuperación de la democracia en 1990.</p>
+                </div>
+
+              </div>
+            </section>
+
+            <section class="texto-largo">
+            <div class="texto-caja">
+            
+            <p class="display-6">En Colombia y Chile no hubo revoluciones, estos grupos no lograron transformar radicalmente el sistema político ni social, limitándose a resistir o buscar acuerdos parciales.</p>
+            </div>
+            </section>
+
+
             <div class="text-center my-3"><button type="button" class="btn btn-outline-custom"><a href="violencia.html">Siguiente</a></button></div>
         
         

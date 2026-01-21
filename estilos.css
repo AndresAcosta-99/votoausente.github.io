@@ -8,6 +8,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%;
 }
 
 footer {
@@ -22,6 +23,8 @@ footer {
 }
 main {
     background-color: rgb(229, 156, 107);
+    padding-top: 60px; /* altura del header */
+
 }
 html, body {
     margin: 0;
@@ -40,9 +43,12 @@ footer p:last-child {
 footer p {
     margin: 0;
 }
-header,
-main{
-    padding: 0.5rem;
+header {
+    padding: 0.75rem 1.5rem;
+}
+
+main {
+    padding: 2rem 4vw;
 }
 
 .dropdown:hover > .dropdown-menu {
@@ -263,4 +269,224 @@ section:nth-of-type(2) .row {
 
 .patron-item .lead {
     margin-bottom: 2rem;
+}
+
+.igual-altura {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.img-col,
+.text-col {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.img-ajustada {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+/* Bloque tipo editorial */
+.bloque-editorial {
+    display: flex;
+    align-items: stretch;
+}
+
+/* Texto */
+.texto-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3rem;
+}
+
+/* Título encima de los párrafos */
+.titulo-seccion {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Imagen */
+.imagen-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-editorial {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/* Encabezado */
+.encabezado-editorial {
+    text-align: center;
+    max-width: 900px;
+    margin: 4rem auto 6rem;
+}
+
+.encabezado-editorial .intro {
+    font-size: 1.2rem;
+}
+
+/* Bloques imagen-texto */
+.bloque-editorial {
+    margin: 5rem 0;
+}
+
+.texto-col {
+    padding: 0 3rem;
+}
+
+.imagen-editorial {
+    width: 100%;
+    height: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Texto largo */
+.texto-largo {
+    max-width: 800px;
+    margin: 4rem auto;
+}
+
+/* Galería */
+.galeria-cuatro img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Cierre */
+.cierre-editorial {
+    max-width: 900px;
+    margin: 6rem auto;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* Mosaico sin espacios */
+.mosaico-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+/* Imágenes ocupan TODO */
+.mosaico-imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+main {
+  padding: 4rem 4vw;
+}
+
+/* HERO */
+.hero-editorial {
+  max-width: 900px;
+  margin: 0 auto 6rem;
+  text-align: center;
+}
+
+.hero-editorial img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+/* GRID NARRATIVO */
+.grid-narrativo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.tarjeta-narrativa img {
+    width: 100%;
+    aspect-ratio: 5 / 6;   /* más vertical */
+    object-fit: cover;
+    display: block;
+}
+
+.tarjeta-narrativa p {
+  font-size: 0.95rem;
+}
+
+/* FIGURA */
+.bloque-figura {
+  max-width: 900px;
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.bloque-figura img {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+/* BLOQUE EDITORIAL */
+.bloque-editorial {
+  margin: 6rem 0;
+}
+
+.texto-col {
+  max-width: 650px;
+}
+
+/* FOOTER */
+.site-footer {
+  padding: 3rem;
+  text-align: center;
+  background: #f2f2f2;
+}
+.bloque-mosaico {
+    margin: 6rem 0;
+}
+
+/* MOSAICO DE LADO A LADO */
+.mosaico-full {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* cambia a 5 si quieres */
+    width: 100%;
+}
+
+.mosaico-full img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+main > section:first-child {
+    margin-top: 0;
+}
+@media (max-width: 768px) {
+    .grid-narrativo {
+        grid-template-columns: 1fr;
+    }
+}
+.bloque-narrativo {
+    max-width: 1000px;
+    margin: 0 auto;
 }
