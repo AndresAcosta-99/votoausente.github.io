@@ -82,3 +82,25 @@ texto-caja button a {
     font-size: 1.2rem;
 }
 
+section {
+    margin-bottom: 80px;
+}
+/* Sección con fondo difuminado */
+.section-difuminada1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(216, 156, 116, 0.967);
+    padding: 100px 60px;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
